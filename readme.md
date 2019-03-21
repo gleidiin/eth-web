@@ -1,0 +1,1 @@
+To start the project use ``npm run start``

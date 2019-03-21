@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>App</title>
+</head>
+<body>
+  <p id="texto"></p>
+
+  <div id="contrato" style="display: none;">
+    Valor atual armazenado: <span id="valor"></span> <br>
+ 
+    <input id="input" type="number" type="text" placeholder="entrar novo valor">
+    <button onclick="setData()"">Enviar novo valor</button> <br><br>
+    <button onclick="atualizarValor()">Buscar valor atulizado</button>
+    <a href="https://rinkeby.etherscan.io/address/0xf582862d80b277ece8a12d1ea207ccd7328716cd" target="_blank">Veja no Etherscan</a>
+
+    <ul id="lista"></ul>
+  </div>
+
+
+  <script src="/index.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/ethjs@0.3.4/dist/ethjs.min.js"></script>
+</script>
+</body>
+</html>
